@@ -1,9 +1,11 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AEAA,AAAA,KAAK,CAAA;EACH,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,EAAE;EACX,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,mBAAmB,EAC/B,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,mBAAmB;CAS7C;;AARE,AAAD,cAAU,CAAA;EACR,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAC/B;;AACA,AAAD,aAAS,CAAA;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAC/B;;ACbH,AAAA,eAAe,CAAA;EACb,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,GAAG;EACR,qBAAqB,EAAE,oCAAoC;CAC5D",
     "sources": [
         "main.scss",
-        "components/_custom_root.scss"
+        "components/_custom_root.scss",
+        "components/_cards.scss",
+        "components/_layouts.scss"
     ],
     "names": [],
     "file": "main.css"

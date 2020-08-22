@@ -9,6 +9,7 @@ import {env} from './contants/api.constant'
 import {healtAction} from './flux/actions/healt.action'
 
 import Navbar from './components/navbar'
+import ListCards from './components/listCards';
 
 function App () {
 
@@ -24,23 +25,8 @@ function App () {
 
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-          {process.env.REACT_APP_ENVIROMENT}
-        </p>
-        <Navbar />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <ListCards/>
     </div>
   );
 }
