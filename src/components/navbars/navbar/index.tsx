@@ -9,7 +9,6 @@ function Navbar ({ name='myValue' }: NavbarType) {
 }
 
 // https://fettblog.eu/typescript-react/prop-types/
-// visionamos\jvilladiego
 
 //Navbar.propTypes = {
 //  name: PropTypes.string.isRequired

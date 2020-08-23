@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes, { InferProps } from 'prop-types'
+import { SvgIcon } from '@material-ui/core';
+import CheckCircleOutlinedIcon from '@material-ui/icons/CheckCircleOutlined';
 import Button from '@material-ui/core/Button';
-
 function Card({title, description}: InferProps<typeof Card.propTypes>) {
   return (
     <div className="card">
@@ -15,7 +16,9 @@ function Card({title, description}: InferProps<typeof Card.propTypes>) {
           </p>
         </div>
         <div>
-          icon
+          <SvgIcon>
+            <CheckCircleOutlinedIcon color='secondary' />
+          </SvgIcon>
         </div>
       </div>
       <div className="card__footer">

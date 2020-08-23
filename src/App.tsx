@@ -8,8 +8,10 @@ import {env} from './contants/api.constant'
 /** Actions */
 import {healtAction} from './flux/actions/healt.action'
 
-import Navbar from './components/navbar'
+import Navbar from './components/navbars/navbar'
 import ListCards from './components/listCards';
+import SideBar from './components/navbars/sideBar';
+import ContainerContent from './components/layouts/containerContent';
 
 function App () {
 
@@ -26,7 +28,10 @@ function App () {
 
   return (
     <div className="">
-      <ListCards/>
+      <ContainerContent 
+      sideContent={<SideBar/>}  
+      content={<ListCards/>}
+      />
     </div>
   );
 }

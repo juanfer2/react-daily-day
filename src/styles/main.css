@@ -1,3 +1,18 @@
+:root {
+  --primaryColor: #FF5F9B;
+  --primaryColorSeconds: #8F4FFB;
+  --secondaryColor: #FF8083;
+  --secondaryColorSecond: #FFCA41;
+  --secondaryColorThird: #10DDDF;
+  --darkBlack: #16365f;
+  --darkGrey: #6B859E;
+  --lightGrey: #F7F8FB;
+}
+
+body {
+  background: var(--lightGrey);
+}
+
 .card {
   background: white;
   border-radius: 5px;
@@ -30,5 +45,20 @@
   gap: 1em;
   -ms-grid-columns: (minmax(240px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.container-content {
+  display: -ms-grid;
+  display: grid;
+  gap: 2em;
+  -ms-grid-columns: .3fr 1fr;
+      grid-template-columns: .3fr 1fr;
+}
+
+.side-bar {
+  height: 100vh;
+  background: white;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.12), 0px 2px 10px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.12), 0px 2px 10px rgba(0, 0, 0, 0.12);
 }
 /*# sourceMappingURL=main.css.map */

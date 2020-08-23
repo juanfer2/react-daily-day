@@ -1,5 +1,21 @@
 :root{
-  $colorInitial: black;
+  // primary palete
+  --primaryColor: #FF5F9B;
+  --primaryColorSeconds: #8F4FFB;
+  
+  // second palete
+  --secondaryColor: #FF8083;
+  --secondaryColorSecond: #FFCA41;
+  --secondaryColorThird: #10DDDF;
+
+  //Text and Backgrounds
+  --darkBlack: #16365f;
+  --darkGrey: #6B859E;
+  --lightGrey: #F7F8FB;
 }
 
-// https://www.facebook.com/profile.php?id=100052184531029&notif_id=1597886891021406&notif_t=friend&ref=notif
+body{
+  background: var(--lightGrey);
+}
+
+
